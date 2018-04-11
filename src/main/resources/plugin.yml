@@ -1,0 +1,5 @@
+name: BSwear
+main: me.expdev.bswear.BSwearPlugin
+version: 1.0-SNAPSHOT
+description: Anti-swear plugin for Marcoo
+author: ExpDev

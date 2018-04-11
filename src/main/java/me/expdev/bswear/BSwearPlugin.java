@@ -7,6 +7,8 @@ import net.md_5.bungee.api.plugin.Plugin;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
 
 public class BSwearPlugin extends Plugin {
 
@@ -43,11 +45,12 @@ public class BSwearPlugin extends Plugin {
     private void loadFilters()  {
         // Create a instance of filters
         this.filters = new Filters();
-
-        File dic = new File(getDataFolder(), "dictionary.csv");
         try {
+            // Save default dictionary first
+            saveDefaultDictionary();
+
             // Apply default filters
-            filters.add(new SwearFilter().populate(dic));
+            filters.add(new SwearFilter().populate(new File(getDataFolder(), "dictionary.csv")));
             filters.add(new CapsFilter());
         } catch (IOException e) {
             getLogger().severe("Could not load dictionary of bad words!: " + e.getMessage());
@@ -58,4 +61,14 @@ public class BSwearPlugin extends Plugin {
     public Filters getFilters() {
         return filters;
     }
+
+    private void saveDefaultDictionary() throws IOException {
+        File file = new File(getDataFolder(), "dictionary.csv");
+        if (!file.exists()) {
+            try (InputStream in = getResourceAsStream("dictionary.csv")) {
+                Files.copy(in, file.toPath());
+            }
+        }
+    }
+
 }

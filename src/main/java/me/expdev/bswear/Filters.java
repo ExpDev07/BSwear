@@ -1,8 +1,6 @@
 package me.expdev.bswear;
 
-import com.sun.xml.internal.messaging.saaj.soap.MessageFactoryImpl;
 import me.expdev.bswear.filter.MessageFilter;
-import me.expdev.bswear.utils.StringUtils;
 import net.md_5.bungee.api.event.ChatEvent;
 
 import java.util.ArrayList;
