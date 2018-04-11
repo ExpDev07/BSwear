@@ -11,7 +11,7 @@ public class ChatListener implements Listener {
     @EventHandler(priority = EventPriority.NORMAL)
     public void onChat(ChatEvent event) {
         // Handle event
-        BSwearPlugin.getPlugin().getBadWords().handleEvent(event);
+        BSwearPlugin.getPlugin().getFilters().handleEvent(event);
     }
 
 }
