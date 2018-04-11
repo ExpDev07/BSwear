@@ -18,7 +18,7 @@ public class Filters {
 
     public void add(MessageFilter filter) {
         filters.add(filter);
-        System.out.println("Applied a new filter: [" + filter.getClass().getSimpleName() + "]");
+        System.out.println("Applied a new filter: [" + filter.getClass().getName() + "]");
     }
 
     public List<MessageFilter> getFilters() {
