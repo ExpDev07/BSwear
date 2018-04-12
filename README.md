@@ -15,7 +15,7 @@ A plugin made exclusively for Marcoo.
 2. **CapsFilter:** makes a word lower case if it exceeds the allowed use of capital letters in one word.
 3. **GrammarFilter:** fixes some common grammatical errors. For example: not using capital letter after punctuations.
 
-**Adding your own filter:**
+**Adding your own filter:** ([TestFilter.java](src/test/java/TestFilter.java))
 ```java
 import me.expdev.bswear.BSwearPlugin;
 import me.expdev.bswear.filter.MessageFilter;
