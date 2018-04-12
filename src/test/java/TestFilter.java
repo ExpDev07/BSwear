@@ -31,10 +31,8 @@ public class TestFilter implements MessageFilter {
             if (capital) {
                 asString = asString.toUpperCase();
                 capital = false;
-            } else {
-                asString = asString.toLowerCase(); // Not really needed
-                capital = true;
-            }
+            } else capital = true;
+
             // Append to result!
             result.append(asString);
         }

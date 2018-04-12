@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a828799-a731-49b6-9ed9-de6477873bcf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Marius.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestFilter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CharTest.java" afterPath="$PROJECT_DIR$/src/test/java/CharTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/expdev/bswear/BSwearPlugin.class" afterPath="$PROJECT_DIR$/target/classes/me/expdev/bswear/BSwearPlugin.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/expdev/bswear/listener/ChatListener.class" afterPath="$PROJECT_DIR$/target/classes/me/expdev/bswear/listener/ChatListener.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CharTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CharTest.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFilter.java" afterPath="$PROJECT_DIR$/src/test/java/TestFilter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +20,7 @@
       <file leaf-file-name="BSwearPlugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="328">
               <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
@@ -76,17 +71,17 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <first_editor relative-caret-position="736">
+                <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
                 <folding>
-                  <marker date="1523546145180" expanded="true" signature="678:754" ph="..." />
-                  <marker date="1523546145180" expanded="true" signature="756:847" ph="/**...*/" />
-                  <marker date="1523546145180" expanded="true" signature="904:976" ph="/**...*/" />
-                  <marker date="1523546145180" expanded="true" signature="1032:2132" ph="{...}" />
-                  <marker date="1523546145180" expanded="true" signature="1201:1306" ph="//..." />
-                  <marker date="1523546145180" expanded="true" signature="2138:2189" ph="/**...*/" />
-                  <marker date="1523546145180" expanded="true" signature="2220:2505" ph="{...}" />
-                  <marker date="1523546145180" expanded="true" signature="2348:2499" ph="//..." />
+                  <marker date="1523546290433" expanded="true" signature="678:754" ph="..." />
+                  <marker date="1523546290433" expanded="true" signature="756:847" ph="/**...*/" />
+                  <marker date="1523546290433" expanded="true" signature="904:976" ph="/**...*/" />
+                  <marker date="1523546290433" expanded="true" signature="1032:2029" ph="{...}" />
+                  <marker date="1523546290433" expanded="true" signature="1201:1306" ph="//..." />
+                  <marker date="1523546290433" expanded="true" signature="2035:2086" ph="/**...*/" />
+                  <marker date="1523546290433" expanded="true" signature="2117:2402" ph="{...}" />
+                  <marker date="1523546290433" expanded="true" signature="2245:2396" ph="//..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -97,8 +92,8 @@
       <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="238">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -147,7 +142,7 @@
       <file leaf-file-name="dictionary.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20553">
+            <state relative-caret-position="559">
               <caret line="1209" column="15" lean-forward="false" selection-start-line="1209" selection-start-column="15" selection-end-line="1209" selection-end-column="15" />
               <folding />
             </state>
@@ -1350,11 +1345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523544116249</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated readme">
+      <created>1523546152591</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1523546152591</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22586000" />
+    <option name="totallyTimeSpent" value="22731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1420,7 +1422,8 @@
     <MESSAGE value="Sum testing" />
     <MESSAGE value="Added a new grammar filter" />
     <MESSAGE value="Give filters an option to" />
-    <option name="LAST_COMMIT_MESSAGE" value="Give filters an option to" />
+    <MESSAGE value="Updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1725,14 +1728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20553">
-          <caret line="1209" column="15" lean-forward="false" selection-start-line="1209" selection-start-column="15" selection-end-line="1209" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1764,18 +1759,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="1209" column="15" lean-forward="false" selection-start-line="1209" selection-start-column="15" selection-end-line="1209" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1798,16 +1809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1815,17 +1818,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <first_editor relative-caret-position="736">
+            <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
             <folding>
-              <marker date="1523546145180" expanded="true" signature="678:754" ph="..." />
-              <marker date="1523546145180" expanded="true" signature="756:847" ph="/**...*/" />
-              <marker date="1523546145180" expanded="true" signature="904:976" ph="/**...*/" />
-              <marker date="1523546145180" expanded="true" signature="1032:2132" ph="{...}" />
-              <marker date="1523546145180" expanded="true" signature="1201:1306" ph="//..." />
-              <marker date="1523546145180" expanded="true" signature="2138:2189" ph="/**...*/" />
-              <marker date="1523546145180" expanded="true" signature="2220:2505" ph="{...}" />
-              <marker date="1523546145180" expanded="true" signature="2348:2499" ph="//..." />
+              <marker date="1523546290433" expanded="true" signature="678:754" ph="..." />
+              <marker date="1523546290433" expanded="true" signature="756:847" ph="/**...*/" />
+              <marker date="1523546290433" expanded="true" signature="904:976" ph="/**...*/" />
+              <marker date="1523546290433" expanded="true" signature="1032:2029" ph="{...}" />
+              <marker date="1523546290433" expanded="true" signature="1201:1306" ph="//..." />
+              <marker date="1523546290433" expanded="true" signature="2035:2086" ph="/**...*/" />
+              <marker date="1523546290433" expanded="true" signature="2117:2402" ph="{...}" />
+              <marker date="1523546290433" expanded="true" signature="2245:2396" ph="//..." />
             </folding>
           </first_editor>
           <second_editor />
