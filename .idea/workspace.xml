@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a828799-a731-49b6-9ed9-de6477873bcf" name="Default" comment="Give filters an option to">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="8a828799-a731-49b6-9ed9-de6477873bcf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Marius.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestFilter.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CharTest.java" afterPath="$PROJECT_DIR$/src/test/java/CharTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/expdev/bswear/BSwearPlugin.class" afterPath="$PROJECT_DIR$/target/classes/me/expdev/bswear/BSwearPlugin.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/expdev/bswear/listener/ChatListener.class" afterPath="$PROJECT_DIR$/target/classes/me/expdev/bswear/listener/ChatListener.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CharTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CharTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,18 +45,60 @@
       <file leaf-file-name="CharTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="408">
+              <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChatListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+            <state relative-caret-position="272">
+              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                <folding>
+                  <marker date="1523546145180" expanded="true" signature="678:754" ph="..." />
+                  <marker date="1523546145180" expanded="true" signature="756:847" ph="/**...*/" />
+                  <marker date="1523546145180" expanded="true" signature="904:976" ph="/**...*/" />
+                  <marker date="1523546145180" expanded="true" signature="1032:2132" ph="{...}" />
+                  <marker date="1523546145180" expanded="true" signature="1201:1306" ph="//..." />
+                  <marker date="1523546145180" expanded="true" signature="2138:2189" ph="/**...*/" />
+                  <marker date="1523546145180" expanded="true" signature="2220:2505" ph="{...}" />
+                  <marker date="1523546145180" expanded="true" signature="2348:2499" ph="//..." />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -71,8 +117,8 @@
       <file leaf-file-name="QueueTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -170,9 +216,11 @@
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CharTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CharTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFilter.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1121,7 +1169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Install">
+  <component name="RunManager" selected="Application.CharTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1295,11 +1343,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523524241308</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Give filters an option to">
+      <created>1523544116249</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1523544116249</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20688000" />
+    <option name="totallyTimeSpent" value="22586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1315,7 +1370,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1364,29 +1419,14 @@
     <MESSAGE value="Adapted to filters system instead." />
     <MESSAGE value="Sum testing" />
     <MESSAGE value="Added a new grammar filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new grammar filter" />
+    <MESSAGE value="Give filters an option to" />
+    <option name="LAST_COMMIT_MESSAGE" value="Give filters an option to" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="42" lean-forward="false" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1660,19 +1700,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/Word.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1681,14 +1713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1756,11 +1780,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="42" lean-forward="true" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <folding>
+              <marker date="1523546145180" expanded="true" signature="678:754" ph="..." />
+              <marker date="1523546145180" expanded="true" signature="756:847" ph="/**...*/" />
+              <marker date="1523546145180" expanded="true" signature="904:976" ph="/**...*/" />
+              <marker date="1523546145180" expanded="true" signature="1032:2132" ph="{...}" />
+              <marker date="1523546145180" expanded="true" signature="1201:1306" ph="//..." />
+              <marker date="1523546145180" expanded="true" signature="2138:2189" ph="/**...*/" />
+              <marker date="1523546145180" expanded="true" signature="2220:2505" ph="{...}" />
+              <marker date="1523546145180" expanded="true" signature="2348:2499" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

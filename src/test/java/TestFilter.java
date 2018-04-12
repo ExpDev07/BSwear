@@ -1,22 +1,3 @@
-# BSwear
-A plugin made exclusively for Marcoo. 
-
-**Order:**
-* **Version:** BungeeCord 1.12-SNAPSHOT
-* **Made:** 10.04.2018
-* **By:** Marcoo
-* **Paid:** 10 EUR
-* **Completed:** 11.04.2018
-
-**Description:** A simple yet innovative anti-swear plugin which introduces filters you can add to the chat.
-
-**Default filters:**
-1. **SwearFilter:** uses a dictionary to remove bad words and replaces them with stars (*).
-2. **CapsFilter:** makes a word lower case if it exceeds the allowed use of capital letters in one word.
-3. **GrammarFilter:** fixes some common grammatical errors. For example: not using capital letter after punctuations.
-
-**Adding your own filter:**
-```java
 import me.expdev.bswear.BSwearPlugin;
 import me.expdev.bswear.filter.MessageFilter;
 
@@ -75,4 +56,3 @@ public class TestFilter implements MessageFilter {
     }
 
 }
-```
