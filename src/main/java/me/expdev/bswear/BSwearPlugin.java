@@ -35,7 +35,7 @@ public class BSwearPlugin extends Plugin {
         loadFilters();
 
         // Register listeners
-        getProxy().getPluginManager().registerListener(this, new ChatListener());
+        getProxy().getPluginManager().registerListener(this, new ChatListener(this.filters));
     }
 
     @Override
