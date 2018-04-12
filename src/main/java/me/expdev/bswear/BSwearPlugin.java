@@ -1,6 +1,7 @@
 package me.expdev.bswear;
 
 import me.expdev.bswear.filter.CapsFilter;
+import me.expdev.bswear.filter.GrammarFilter;
 import me.expdev.bswear.filter.SwearFilter;
 import me.expdev.bswear.listener.ChatListener;
 import net.md_5.bungee.api.plugin.Plugin;
@@ -52,6 +53,7 @@ public class BSwearPlugin extends Plugin {
             // Apply default filters
             filters.add(new SwearFilter().populate(new File(getDataFolder(), "dictionary.csv")));
             filters.add(new CapsFilter());
+            filters.add(new GrammarFilter());
         } catch (IOException e) {
             getLogger().severe("Could not load dictionary of bad words!: " + e.getMessage());
             getLogger().severe("This means that no default filters will be loaded");

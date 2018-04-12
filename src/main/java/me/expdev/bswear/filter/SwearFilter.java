@@ -5,7 +5,6 @@ import me.expdev.bswear.utils.StringUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Arrays;
@@ -14,7 +13,8 @@ import java.util.List;
 import java.util.Set;
 
 /**
- * Overview of bad words
+ * A filter to remove bad words
+ *
  * <b>Note: a "word" can consist of multiple words as it is represented by a string</b>
  */
 public class SwearFilter implements MessageFilter {
@@ -60,7 +60,7 @@ public class SwearFilter implements MessageFilter {
 
     public SwearFilter populate(List<String> dictionary) {
         for (String word : dictionary) this.add(word);
-        System.out.println("Populated " + dictionary.size() + " words to swearing dictionary");
+        System.out.println("Populated swearing dictionary with " + dictionary.size() + " words");
         return this;
     }
 
@@ -81,7 +81,7 @@ public class SwearFilter implements MessageFilter {
      * @param word Word to filter
      * @return Filtered word
      */
-    public String filterWord(String word) {
+    private String filterWord(String word) {
         if (!(this.isBad(word))) return word;
         return StringUtils.replaceWithChar(word, STAR);
     }

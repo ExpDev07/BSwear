@@ -1,5 +1,6 @@
 import me.expdev.bswear.Filters;
 import me.expdev.bswear.filter.CapsFilter;
+import me.expdev.bswear.filter.GrammarFilter;
 import me.expdev.bswear.filter.SwearFilter;
 import net.md_5.bungee.api.event.ChatEvent;
 
@@ -14,13 +15,13 @@ public class CharTest {
         SwearFilter swearFilter = new SwearFilter("test lol").populate(new File(
                 "src/main/resources/dictionary.csv")
         );
-        CapsFilter capsFilter = new CapsFilter();
 
         // Apply the filters!
         filters.add(swearFilter);
-        filters.add(capsFilter);
+        filters.add(new CapsFilter());
+        filters.add(new GrammarFilter());
 
-        ChatEvent event = new ChatEvent(null, null, "LOL, fuck LOOOO0L you are HAHA HAHAHA such a WHORE NIggeR lol test lol 1");
+        ChatEvent event = new ChatEvent(null, null, "does this. work?haha");
         filters.handleEvent(event);
 
         System.out.println(event.getMessage());

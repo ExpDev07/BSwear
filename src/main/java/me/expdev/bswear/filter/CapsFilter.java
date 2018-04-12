@@ -2,6 +2,9 @@ package me.expdev.bswear.filter;
 
 import me.expdev.bswear.utils.StringUtils;
 
+/**
+ * A filter to decrease use of excessive caps
+ */
 public class CapsFilter implements MessageFilter {
 
     private static final int CAPS_LIMIT = 5;
