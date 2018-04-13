@@ -59,6 +59,14 @@ public class TestFilter implements MessageFilter {
         // Return edited/filtered message!
         return result.toString();
     }
+    
+    /**
+    * Optionally, you can also provide a name 
+    */
+    @Override
+    public String getName() {
+        return "test_filter by ExpDev";
+    }
 
     /**
      * Executed when program is started
