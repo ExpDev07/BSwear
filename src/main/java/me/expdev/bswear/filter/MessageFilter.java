@@ -10,4 +10,11 @@ public interface MessageFilter {
      */
     String filter(String message);
 
+    /**
+     * @return Name of filter
+     */
+    default String getName() {
+        return this.getClass().getName();
+    }
+
 }

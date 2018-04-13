@@ -41,6 +41,11 @@ public class GrammarFilter implements MessageFilter {
             result.append(c);
         }
 
+        // Placing a dot at the end if no "special" character is there
+        if (Character.isAlphabetic(message.charAt(message.toCharArray().length - 1))) {
+            result.append(".");
+        }
+
         return result.toString().trim();
     }
 }

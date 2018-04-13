@@ -19,7 +19,7 @@ public class CharTest {
         // Apply the filters!
         filters.add(swearFilter);
         filters.add(new CapsFilter());
-        // filters.add(new GrammarFilter());
+        filters.add(new GrammarFilter());
         filters.add(new TestFilter());
 
         ChatEvent event = new ChatEvent(null, null, "DOEs THiS wO?r1k");
