@@ -94,5 +94,10 @@ public class SwearFilter implements MessageFilter {
         return message;
     }
 
+    @Override
+    public FilterPriority getPriority() {
+        return FilterPriority.NORMAL;
+    }
+
 
 }

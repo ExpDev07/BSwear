@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a828799-a731-49b6-9ed9-de6477873bcf" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/compar/PriorityComparator.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFilter.java" afterPath="$PROJECT_DIR$/src/test/java/TestFilter.java" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CharTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CharTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,8 +37,8 @@
       <file leaf-file-name="GrammarFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="702">
+              <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -66,23 +74,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="274">
-                <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+              <first_editor relative-caret-position="937">
+                <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
                 <folding>
-                  <marker date="1523630162917" expanded="true" signature="729:805" ph="..." />
-                  <marker date="1523630162917" expanded="true" signature="807:898" ph="/**...*/" />
-                  <marker date="1523630162917" expanded="true" signature="955:1027" ph="/**...*/" />
-                  <marker date="1523630162917" expanded="true" signature="1083:2080" ph="{...}" />
-                  <marker date="1523630162917" expanded="true" signature="1252:1357" ph="//..." />
-                  <marker date="1523630162917" expanded="true" signature="2090:2147" ph="/**...*/" />
-                  <marker date="1523630162917" expanded="true" signature="2190:2237" ph="{...}" />
-                  <marker date="1523630162917" expanded="true" signature="2243:2294" ph="/**...*/" />
-                  <marker date="1523630162917" expanded="true" signature="2325:2610" ph="{...}" />
-                  <marker date="1523630162917" expanded="true" signature="2453:2604" ph="//..." />
+                  <marker date="1523631496403" expanded="true" signature="729:805" ph="..." />
+                  <marker date="1523631496403" expanded="true" signature="807:898" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="955:1027" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="1083:2080" ph="{...}" />
+                  <marker date="1523631496403" expanded="true" signature="1252:1357" ph="//..." />
+                  <marker date="1523631496403" expanded="true" signature="2086:2264" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="2319:2365" ph="{...}" />
+                  <marker date="1523631496403" expanded="true" signature="2371:2429" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="2423:2429" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="2472:2519" ph="{...}" />
+                  <marker date="1523631496403" expanded="true" signature="2525:2576" ph="/**...*/" />
+                  <marker date="1523631496403" expanded="true" signature="2607:2892" ph="{...}" />
+                  <marker date="1523631496403" expanded="true" signature="2735:2886" ph="//..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -90,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -103,8 +114,8 @@
       <file leaf-file-name="Filters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="595">
+              <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -123,8 +134,18 @@
       <file leaf-file-name="MessageFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriorityComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/compar/PriorityComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -133,8 +154,8 @@
       <file leaf-file-name="SwearFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
+            <state relative-caret-position="685">
+              <caret line="98" column="36" lean-forward="false" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -153,8 +174,8 @@
       <file leaf-file-name="CapsFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -208,16 +229,17 @@
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/BadWords.java" />
         <option value="$PROJECT_DIR$/src/test/java/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/listener/ChatListener.java" />
         <option value="$PROJECT_DIR$/src/test/java/CharTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/UltraSwearFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/compar/PriorityComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java" />
-        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestFilter.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -301,6 +323,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bswear" type="462c0819:PsiDirectoryNode" />
               <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BSwear" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BSwear" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bswear" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="compar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BSwear" type="b2602c69:ProjectViewProjectNode" />
@@ -516,7 +548,7 @@
       <updated>1523428785171</updated>
       <workItem from="1523428790915" duration="14494000" />
       <workItem from="1523447138527" duration="5933000" />
-      <workItem from="1523624567465" duration="2691000" />
+      <workItem from="1523624567465" duration="3724000" />
     </task>
     <task id="LOCAL-00001" summary="Adapted to filters system instead.">
       <created>1523443134393</created>
@@ -588,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523630166480</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Updated readme">
+      <created>1523630465862</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1523630465862</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26963000" />
+    <option name="totallyTimeSpent" value="27996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -607,7 +646,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -646,14 +685,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/utils/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -936,26 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding />
         </state>
       </provider>
@@ -976,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="84" column="45" lean-forward="true" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/BSwearPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -992,26 +999,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/compar/PriorityComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="476">
+          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="53" column="36" lean-forward="false" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="98" column="36" lean-forward="false" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/QueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1019,38 +1074,25 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="274">
-            <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+          <first_editor relative-caret-position="937">
+            <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
             <folding>
-              <marker date="1523630162917" expanded="true" signature="729:805" ph="..." />
-              <marker date="1523630162917" expanded="true" signature="807:898" ph="/**...*/" />
-              <marker date="1523630162917" expanded="true" signature="955:1027" ph="/**...*/" />
-              <marker date="1523630162917" expanded="true" signature="1083:2080" ph="{...}" />
-              <marker date="1523630162917" expanded="true" signature="1252:1357" ph="//..." />
-              <marker date="1523630162917" expanded="true" signature="2090:2147" ph="/**...*/" />
-              <marker date="1523630162917" expanded="true" signature="2190:2237" ph="{...}" />
-              <marker date="1523630162917" expanded="true" signature="2243:2294" ph="/**...*/" />
-              <marker date="1523630162917" expanded="true" signature="2325:2610" ph="{...}" />
-              <marker date="1523630162917" expanded="true" signature="2453:2604" ph="//..." />
+              <marker date="1523631496403" expanded="true" signature="729:805" ph="..." />
+              <marker date="1523631496403" expanded="true" signature="807:898" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="955:1027" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="1083:2080" ph="{...}" />
+              <marker date="1523631496403" expanded="true" signature="1252:1357" ph="//..." />
+              <marker date="1523631496403" expanded="true" signature="2086:2264" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="2319:2365" ph="{...}" />
+              <marker date="1523631496403" expanded="true" signature="2371:2429" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="2423:2429" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="2472:2519" ph="{...}" />
+              <marker date="1523631496403" expanded="true" signature="2525:2576" ph="/**...*/" />
+              <marker date="1523631496403" expanded="true" signature="2607:2892" ph="{...}" />
+              <marker date="1523631496403" expanded="true" signature="2735:2886" ph="//..." />
             </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="46" column="9" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>

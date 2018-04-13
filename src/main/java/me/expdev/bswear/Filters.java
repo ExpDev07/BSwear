@@ -1,9 +1,11 @@
 package me.expdev.bswear;
 
 import me.expdev.bswear.filter.MessageFilter;
+import me.expdev.bswear.filter.compar.PriorityComparator;
 import net.md_5.bungee.api.event.ChatEvent;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Filters {
@@ -31,8 +33,12 @@ public class Filters {
     public void handleEvent(ChatEvent event) {
         String message = event.getMessage();
 
+        // Sort filters first
+        this.filters.sort(new PriorityComparator());
+
         // Overlap/apply filters
         for (MessageFilter filter : filters) {
+            System.out.println("Handling " + filter + " (" + filter.getPriority().toString() +")");
             message = filter.filter(message);
         }
         event.setMessage(message);

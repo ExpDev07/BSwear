@@ -42,6 +42,15 @@ public class TestFilter implements MessageFilter {
     }
 
     /**
+     * Provide a priority for this filter. Should it have a final say
+     * in the outcome? Use HIGHEST or MONITOR (monitor should not modify outcome, just analyze).
+     */
+    @Override
+    public FilterPriority getPriority() {
+        return FilterPriority.MONITOR;
+    }
+
+    /**
      * Optionally, you can also provide a name
      */
     @Override

@@ -48,4 +48,10 @@ public class GrammarFilter implements MessageFilter {
 
         return result.toString().trim();
     }
+
+    @Override
+    public FilterPriority getPriority() {
+        return FilterPriority.NORMAL;
+    }
+
 }

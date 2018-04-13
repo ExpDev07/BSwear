@@ -23,4 +23,10 @@ public class CapsFilter implements MessageFilter {
         }
         return sb.toString().trim();
     }
+
+    @Override
+    public FilterPriority getPriority() {
+        return FilterPriority.NORMAL;
+    }
+
 }
