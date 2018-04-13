@@ -66,7 +66,7 @@ public class TestFilter implements MessageFilter {
      */
     @Override
     public FilterPriority getPriority() {
-        return FilterPriority.MONITOR;
+        return FilterPriority.HIGHEST;
     }
 
     /**

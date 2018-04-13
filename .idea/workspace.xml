@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a828799-a731-49b6-9ed9-de6477873bcf" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/compar/PriorityComparator.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/Filters.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" afterPath="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestFilter.java" afterPath="$PROJECT_DIR$/src/test/java/TestFilter.java" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CharTest.class" afterPath="$PROJECT_DIR$/target/test-classes/CharTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,26 +67,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="937">
-                <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+              <first_editor relative-caret-position="546">
+                <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
                 <folding>
-                  <marker date="1523631496403" expanded="true" signature="729:805" ph="..." />
-                  <marker date="1523631496403" expanded="true" signature="807:898" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="955:1027" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="1083:2080" ph="{...}" />
-                  <marker date="1523631496403" expanded="true" signature="1252:1357" ph="//..." />
-                  <marker date="1523631496403" expanded="true" signature="2086:2264" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="2319:2365" ph="{...}" />
-                  <marker date="1523631496403" expanded="true" signature="2371:2429" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="2423:2429" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="2472:2519" ph="{...}" />
-                  <marker date="1523631496403" expanded="true" signature="2525:2576" ph="/**...*/" />
-                  <marker date="1523631496403" expanded="true" signature="2607:2892" ph="{...}" />
-                  <marker date="1523631496403" expanded="true" signature="2735:2886" ph="//..." />
+                  <marker date="1523631576081" expanded="true" signature="729:805" ph="..." />
+                  <marker date="1523631576081" expanded="true" signature="807:898" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="955:1027" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="1083:2080" ph="{...}" />
+                  <marker date="1523631576081" expanded="true" signature="1252:1357" ph="//..." />
+                  <marker date="1523631576081" expanded="true" signature="2086:2264" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="2319:2365" ph="{...}" />
+                  <marker date="1523631576081" expanded="true" signature="2371:2429" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="2423:2429" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="2472:2519" ph="{...}" />
+                  <marker date="1523631576081" expanded="true" signature="2525:2576" ph="/**...*/" />
+                  <marker date="1523631576081" expanded="true" signature="2607:2892" ph="{...}" />
+                  <marker date="1523631576081" expanded="true" signature="2735:2886" ph="//..." />
                 </folding>
               </first_editor>
               <second_editor />
@@ -101,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestFilter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="833">
+              <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -238,8 +231,8 @@
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/CapsFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/GrammarFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestFilter.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/TestFilter.java" />
       </list>
     </option>
   </component>
@@ -548,7 +541,7 @@
       <updated>1523428785171</updated>
       <workItem from="1523428790915" duration="14494000" />
       <workItem from="1523447138527" duration="5933000" />
-      <workItem from="1523624567465" duration="3724000" />
+      <workItem from="1523624567465" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="Adapted to filters system instead.">
       <created>1523443134393</created>
@@ -627,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523630465862</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Introduces priorities for filters">
+      <created>1523631516712</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1523631516712</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27996000" />
+    <option name="totallyTimeSpent" value="28075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -678,7 +678,8 @@
     <MESSAGE value="Added a new grammar filter" />
     <MESSAGE value="Give filters an option to" />
     <MESSAGE value="Updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme" />
+    <MESSAGE value="Introduces priorities for filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduces priorities for filters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1023,14 +1024,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/SwearFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
@@ -1047,11 +1040,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/me/expdev/bswear/filter/MessageFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="546">
+            <caret line="68" column="37" lean-forward="false" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
+            <folding>
+              <marker date="1523631576081" expanded="true" signature="729:805" ph="..." />
+              <marker date="1523631576081" expanded="true" signature="807:898" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="955:1027" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="1083:2080" ph="{...}" />
+              <marker date="1523631576081" expanded="true" signature="1252:1357" ph="//..." />
+              <marker date="1523631576081" expanded="true" signature="2086:2264" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="2319:2365" ph="{...}" />
+              <marker date="1523631576081" expanded="true" signature="2371:2429" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="2423:2429" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="2472:2519" ph="{...}" />
+              <marker date="1523631576081" expanded="true" signature="2525:2576" ph="/**...*/" />
+              <marker date="1523631576081" expanded="true" signature="2607:2892" ph="{...}" />
+              <marker date="1523631576081" expanded="true" signature="2735:2886" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1063,36 +1081,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CharTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="408">
+          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="937">
-            <caret line="91" column="1" lean-forward="false" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-            <folding>
-              <marker date="1523631496403" expanded="true" signature="729:805" ph="..." />
-              <marker date="1523631496403" expanded="true" signature="807:898" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="955:1027" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="1083:2080" ph="{...}" />
-              <marker date="1523631496403" expanded="true" signature="1252:1357" ph="//..." />
-              <marker date="1523631496403" expanded="true" signature="2086:2264" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="2319:2365" ph="{...}" />
-              <marker date="1523631496403" expanded="true" signature="2371:2429" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="2423:2429" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="2472:2519" ph="{...}" />
-              <marker date="1523631496403" expanded="true" signature="2525:2576" ph="/**...*/" />
-              <marker date="1523631496403" expanded="true" signature="2607:2892" ph="{...}" />
-              <marker date="1523631496403" expanded="true" signature="2735:2886" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="37" lean-forward="false" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
